@@ -1,7 +1,15 @@
 @media screen and (max-width:468px) {
-    aside .logo-media {
+
+    /*aside*/
+    #logo-media {
         display: none;
     }
+
+    .playlist {
+        display: none;
+    }
+
+    /*/aside*/
 }
 
 @media screen and (min-width:468px) {
@@ -10,6 +18,7 @@
         width: 80vw;
     }
 
+    /*aside*/
     aside {
         width: 20vw;
     }
@@ -18,8 +27,20 @@
         display: none;
     }
 
-
-    .logo-media {
+    #logo-media img {
         width: 70%;
     }
+
+    aside img {
+        width: 30%;
+    }
+
+    /*aside*/
+
+    /*container-body*/
+    .container-body {
+        width: 80vw;
+    }
+
+    /*/container-body*/
 }
