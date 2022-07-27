@@ -1,0 +1,25 @@
+@media screen and (max-width:468px) {
+    aside .logo-media {
+        display: none;
+    }
+}
+
+@media screen and (min-width:468px) {
+
+    header div {
+        width: 80vw;
+    }
+
+    aside {
+        width: 20vw;
+    }
+
+    aside .logo {
+        display: none;
+    }
+
+
+    .logo-media {
+        width: 70%;
+    }
+}

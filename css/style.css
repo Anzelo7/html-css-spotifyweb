@@ -1,0 +1,91 @@
+/*css default*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/**/
+/*aside*/
+
+aside {
+    width: 10vw;
+    height: 90vh;
+    background-color: #000;
+    justify-content: space-between;
+}
+
+aside img {
+    width: 80%;
+    padding: 2px;
+}
+
+aside .logo img {
+    padding: 5px;
+    width: 90%;
+}
+
+#profile {
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: #aeaeae;
+}
+
+/*/aside*/
+
+/*container-body*/
+
+/*header*/
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header div {
+    width: 90vw;
+    flex-grow: 1;
+    background-color: #000000cc;
+    align-items: flex-end;
+}
+
+header div a {
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    background-color: none;
+    text-decoration: none;
+    text-align: right;
+}
+
+/*/header*/
+
+/*main*/
+
+/*/main*/
+/*/container-body*/
