@@ -56,13 +56,56 @@ aside .logo img {
     width: 90%;
 }
 
+aside a {
+    text-decoration: none;
+}
 
+aside span {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #aeaeae;
+}
+
+#playlist {
+    padding: 10px 0;
+}
+
+.fa-square-plus {
+    font-size: 2rem;
+}
+
+#list {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+aside li {
+    line-height: 1.8rem;
+}
+
+#playlist li span {
+    font-weight: 400;
+    font-size: 1rem;
+}
 
 #profile img {
     border-radius: 50%;
     text-align: center;
     color: #fff;
     background-color: #aeaeae;
+}
+
+aside hr {
+    background-color: #fff;
+    width: 12vw;
+    margin: 10px 0;
+    align-self: flex-start;
+}
+
+.fffbold {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
 }
 
 
@@ -94,7 +137,7 @@ header div {
     flex-grow: 1;
     background-color: #000000cc;
     align-items: flex-end;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 header div a {
@@ -105,6 +148,11 @@ header div a {
     border: 2px solid #fff;
     text-decoration: none;
     text-align: right;
+
+}
+
+header div a:hover {
+    transform: scale(1.2);
 }
 
 /*/header*/
@@ -125,19 +173,57 @@ main {
     color: #aeaeae;
 }
 
-#played h1 {
+.menu h4:hover {
+    color: #fff;
+}
+
+/*played*/
+
+.played {
+    padding-bottom: 20px;
+}
+
+.played h1 {
     font-weight: 900;
     color: #fff;
     padding: 10px;
 }
 
-#played .card {
-    width: calc(70vw / 2);
-    text-align: center;
+.played p {
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: #aeaeae;
+    padding: 0 10px;
 }
 
-#played .card img {
+.played .card {
+    width: calc(70vw / 2);
+    text-align: center;
+    position: relative;
+}
+
+.played .card img:hover {
+    opacity: 0.6;
+}
+
+.played .fa-circle-play {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    opacity: 0;
+}
+
+.played .fa-circle-play:hover {
+    opacity: 1;
+}
+
+.played .card img {
     width: 100%;
+}
+
+.played .pop img {
+    border-radius: 50%;
 }
 
 .played-card .column {
@@ -154,6 +240,7 @@ main {
     color: #aeaeae;
 }
 
+/*/played*/
 /*/main*/
 /*/container-body*/
 
@@ -248,7 +335,7 @@ hr {
 
 .foot-container .row:last-child {
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 
 }
 

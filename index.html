@@ -31,37 +31,49 @@
 
             <a href="#">
                 <img src="img/home.svg" alt="">
+                <span class="fffbold">Home</span>
             </a>
             <a href="#">
                 <img src="img/search.svg" alt="">
+                <span>Cerca</span>
             </a>
             <a href="#">
                 <img src="img/libreria.svg" alt="">
+                <span>La tua libreria</span>
             </a>
 
-            <div class="playlist">
+            <div id="playlist">
                 <div class="flex row">
-                    <h1>PLAYLIST</h1>
+                    <h3>PLAYLIST</h3>
                 </div>
-                <span><i class="fa-solid fa-square-plus"></i>Crea playlist</span>
+                <i class="fa-solid fa-square-plus"></i>
+                <span id="list">Crea playlist</span>
                 <ul>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
+                    <li><span>Nome Playlist</span></li>
+                    <li><span>Nome Playlist</span></li>
+                    <li><span>Nome Playlist</span></li>
+                    <li><span>Nome Playlist</span></li>
+                    <li><span>Nome Playlist</span></li>
+                    <li><span>Nome Playlist</span></li>
+                    <li><span>Nome Playlist</span></li>
                 </ul>
             </div>
         </div>
         <div class="flex column">
-            <a href="#">
-                <img src="img/download.svg" alt="">
-            </a>
-            <a id="profile" href="#">
-                <img src="img/profile.svg" alt="">
-            </a>
+            <div class="flex row">
+                <a href="#">
+                    <img src="img/download.svg" alt="">
+                    <span>Installa app</span>
+                </a>
+            </div>
+            <hr>
+            <div class="flex row">
+                <a id="profile" href="#">
+                    <img src="img/profile.svg" alt="">
+                    <span class="fffbold">John Doe</span>
+                </a>
+            </div>
+
         </div>
     </aside>
     <!-- /aside -->
@@ -101,7 +113,7 @@
                     </div>
                 </div>
             </section>
-            <section id="played">
+            <section class="played">
                 <div class="flex column">
                     <div class="flex row">
                         <h1>Recetly played</h1>
@@ -110,6 +122,7 @@
                         <div class="column">
                             <div class="card">
                                 <img src="img/metal_lifting.jpg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
                                 <h5>Heavy Metal</h5>
                                 <p>Subtitle</p>
                             </div>
@@ -117,52 +130,91 @@
                         <div class="column">
                             <div class="card">
                                 <img src="img/stranger.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
                                 <h5>Stranger Things, Vol.1 (a Netflix Original Serie Soundtrack)</h5>
                                 <p>Kyle Dixon & Micheal Stein</p>
                             </div>
                         </div>
                         <div class="column">
                             <div class="card">
-                                <img src="img/stranger.jpeg" alt="">
-                                <h5>Stranger Things, Vol.1 (a Netflix Original Serie Soundtrack)</h5>
-                                <p>Kyle Dixon & Micheal Stein</p>
+                                <img src="img/aquietplace.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>A quiet place</h5>
+                                <p>Subtitle</p>
                             </div>
                         </div>
                         <div class="column">
                             <div class="card">
-                                <img src="img/stranger.jpeg" alt="">
-                                <h5>Stranger Things, Vol.1 (a Netflix Original Serie Soundtrack)</h5>
-                                <p>Kyle Dixon & Micheal Stein</p>
+                                <img src="img/split.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>Split</h5>
+                                <p>Subtitle</p>
                             </div>
                         </div>
                         <div class="column">
                             <div class="card">
-                                <img src="img/stranger.jpeg" alt="">
-                                <h5>Stranger Things, Vol.1 (a Netflix Original Serie Soundtrack)</h5>
-                                <p>Kyle Dixon & Micheal Stein</p>
+                                <img src="img/cure.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>A cure for wellness</h5>
+                                <p>Subtitle</p>
                             </div>
                         </div>
                         <div class="column">
                             <div class="card">
-                                <img src="img/stranger.jpeg" alt="">
-                                <h5>Stranger Things, Vol.1 (a Netflix Original Serie Soundtrack)</h5>
-                                <p>Kyle Dixon & Micheal Stein</p>
+                                <img src="img/sinister.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>Sinister</h5>
+                                <p>Subtitle</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="JohnDoe">
-                <div class="flex">
-                    <div class="flex row">
+            <section class="played">
+                <div class="flex column">
+                    <div class="flex column">
                         <h1>Creato per John Doe</h1>
+                        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                    </div>
+                    <div class="flex row played-card">
+                        <div class="column">
+                            <div class="card">
+                                <img src="img/radar.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>Release Radar</h5>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <img src="img/mixdaily.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>Daily Mix 1</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id="pop">
-                <div class="flex">
-                    <div class="flex row">
+            <section class="played">
+                <div class="flex column">
+                    <div class="flex column">
                         <h1>Artisti più popolari</h1>
+                        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                    </div>
+                    <div class="flex row played-card">
+                        <div class="column">
+                            <div class="card pop">
+                                <img src="img/youg.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>Einaudi Best OF</h5>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card pop">
+                                <img src="img/einaudi.jpeg" alt="">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <h5>Lana Del Ray</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

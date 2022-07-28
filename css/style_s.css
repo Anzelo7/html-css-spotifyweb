@@ -1,22 +1,20 @@
 @media screen and (max-width:468px) {
 
     /*aside*/
-    #logo-media {
+    aside #logo-media,
+    span {
         display: none;
     }
 
-    .playlist {
+    aside hr {
+        display: none;
+    }
+
+    #playlist {
         display: none;
     }
 
     /*/aside*/
-
-    /*container-body*/
-
-    /*footer*/
-
-    /*/footer*/
-    /*/container-body*/
 }
 
 
@@ -43,6 +41,11 @@
         width: 30%;
     }
 
+    aside li:hover,
+    span:hover {
+        color: #fff;
+    }
+
     /*aside*/
 
     /*container-body*/
@@ -50,12 +53,4 @@
         width: 80vw;
     }
 
-    /*footer*/
-
-    .foot-container {
-        justify-content: space-between;
-    }
-
-    /*/footer*/
-    /*/container-body*/
 }

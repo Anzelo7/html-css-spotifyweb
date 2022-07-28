@@ -1,6 +1,26 @@
 @media screen and (min-width:1024px) {
 
-    #played .card {
+    /*aside*/
+    aside {
+        width: 20vw;
+    }
+
+    aside .logo {
+        display: none;
+    }
+
+    #logo-media img {
+        width: 70%;
+    }
+
+    aside img {
+        width: 15%;
+    }
+
+    /*aside*/
+
+
+    .played .card {
         width: calc(70vw / 6);
     }
 
