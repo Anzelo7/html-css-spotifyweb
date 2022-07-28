@@ -41,6 +41,7 @@ body {
 aside {
     width: 10vw;
     height: 90vh;
+    color: #fff;
     background-color: #000;
     justify-content: space-between;
 }
@@ -54,6 +55,8 @@ aside .logo img {
     padding: 5px;
     width: 90%;
 }
+
+
 
 #profile img {
     border-radius: 50%;
@@ -109,6 +112,7 @@ header div a {
 /*main*/
 
 main {
+    height: 80vh;
     flex-grow: 1;
 }
 
@@ -119,10 +123,6 @@ main {
 
 .menu h4 {
     color: #aeaeae;
-}
-
-#played {
-    display: ;
 }
 
 #played h1 {
