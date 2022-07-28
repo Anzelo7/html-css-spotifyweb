@@ -140,8 +140,8 @@ main {
     width: 100%;
 }
 
-.played-card {
-    justify-content: space-evenly;
+.played-card .column {
+    padding: 5px;
 }
 
 .played-card h5 {
@@ -166,6 +166,84 @@ footer {
     bottom: 0;
     z-index: 999;
     background-color: #303030;
+    align-items: center;
 }
+
+.foot-container {
+    align-content: center;
+    justify-content: space-between;
+}
+
+.foot-container div {
+    padding: 5px;
+}
+
+.foot-container .flex {
+    width: calc();
+}
+
+.foot-container .column:nth-of-type(2) {
+    justify-content: center;
+}
+
+.foot-container img {
+    height: 5vh;
+}
+
+.album {
+    align-items: center;
+}
+
+.album h5 {
+    color: #fff;
+}
+
+.album p {
+    font-size: 0.66rem;
+    font-weight: 600;
+    color: #aeaeae;
+}
+
+.fa-heart,
+.fa-folder {
+    line-height: 1.5rem;
+    color: #aeaeae;
+}
+
+.music-icons i {
+    padding: 10px;
+    color: #fff;
+    align-self: center;
+
+}
+
+.fa-circle-play {
+    font-size: 2rem;
+}
+
+hr {
+    height: 0.4vh;
+    border-radius: 25px;
+    align-self: center;
+}
+
+.time-line #hr-up {
+    flex-grow: 1;
+    background-color: #aeaeae;
+}
+
+.time-line #hr-down {
+    flex-grow: 2;
+    background-color: #fff;
+}
+
+.time-line span {
+    color: #fff;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
 
 /*/footer*/

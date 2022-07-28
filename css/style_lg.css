@@ -1,0 +1,7 @@
+@media screen and (min-width:1024px) {
+
+    #played .card {
+        width: calc(70vw / 6);
+    }
+
+}
