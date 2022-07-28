@@ -170,16 +170,12 @@ footer {
 }
 
 .foot-container {
+    width: 100vw;
     align-content: center;
-    justify-content: space-between;
 }
 
-.foot-container div {
-    padding: 5px;
-}
-
-.foot-container .flex {
-    width: calc();
+#foot .row {
+    flex-wrap: nowrap;
 }
 
 .foot-container .column:nth-of-type(2) {
@@ -191,6 +187,7 @@ footer {
 }
 
 .album {
+    padding: 5px;
     align-items: center;
 }
 
@@ -204,8 +201,8 @@ footer {
     color: #aeaeae;
 }
 
-.fa-heart,
-.fa-folder {
+#heart i {
+    padding: 0;
     line-height: 1.5rem;
     color: #aeaeae;
 }
@@ -227,12 +224,12 @@ hr {
     align-self: center;
 }
 
-.time-line #hr-up {
+.time-line .hr-up {
     flex-grow: 1;
     background-color: #aeaeae;
 }
 
-.time-line #hr-down {
+.time-line .hr-down {
     flex-grow: 2;
     background-color: #fff;
 }
@@ -242,6 +239,27 @@ hr {
     padding: 5px;
     font-size: 0.8rem;
     font-weight: 600;
+}
+
+.foot-container .column:last-child {
+    justify-content: center;
+
+}
+
+.foot-container .column:last-child i {
+    padding: 10px;
+    color: #fff;
+    align-self: center;
+}
+
+.audio .hr-up {
+    flex-grow: 1;
+    background-color: #aeaeae;
+}
+
+.audio .hr-down {
+    flex-grow: 2;
+    background-color: #fff;
 }
 
 
