@@ -175,6 +175,8 @@ main {
 
 .menu h4:hover {
     color: #fff;
+    border-bottom-width: 10px;
+    border-bottom: 2px solid #52ff2f;
 }
 
 /*played*/
@@ -215,6 +217,7 @@ main {
 }
 
 .played .fa-circle-play:hover {
+    color: #fff;
     opacity: 1;
 }
 
@@ -293,10 +296,19 @@ footer {
     color: #aeaeae;
 }
 
+.album p:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 #heart i {
     padding: 0;
     line-height: 1.5rem;
     color: #aeaeae;
+}
+
+#heart i:hover {
+    color: #fff;
 }
 
 .music-icons i {
@@ -310,15 +322,40 @@ footer {
     font-size: 2rem;
 }
 
+.fa-circle-play:hover {
+    transform: scale(1.2);
+}
+
 hr {
     height: 0.4vh;
     border-radius: 25px;
     align-self: center;
 }
 
+.time-line .circle {
+    width: 0.1vw;
+    height: 0.1vh;
+    opacity: 0;
+    padding: 0;
+}
+
+.time-line .circle:hover {
+    padding: 0;
+    opacity: 1;
+    width: 2vw;
+    height: 2vh;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
 .time-line .hr-up {
     width: 7vw;
     background-color: #aeaeae;
+}
+
+.time-line .hr-up:hover {
+    background-color: #52ff2f;
 }
 
 .time-line .hr-down {
@@ -345,9 +382,30 @@ hr {
     justify-content: center;
 }
 
+.audio .circle {
+    width: 0.1vw;
+    height: 0.1vh;
+    opacity: 0;
+    padding: 0;
+}
+
+.audio .circle:hover {
+    padding: 0;
+    opacity: 1;
+    width: 2vw;
+    height: 2vh;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
 .audio .hr-up {
     width: 3vw;
     background-color: #aeaeae;
+}
+
+.audio .hr-up:hover {
+    background-color: #52ff2f;
 }
 
 .audio .hr-down {
