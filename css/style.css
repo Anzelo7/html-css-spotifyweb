@@ -204,25 +204,28 @@ main {
     position: relative;
 }
 
+.played .card img {
+    width: 100%;
+
+}
+
 .played .card img:hover {
     opacity: 0.6;
 }
 
 .played .fa-circle-play {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-40%, -50%);
+    color: #fff;
     opacity: 0;
+    transform: scale(2);
+    position: absolute;
+    top: 8vh;
+    right: 8vh;
 }
 
 .played .fa-circle-play:hover {
     color: #fff;
     opacity: 1;
-}
-
-.played .card img {
-    width: 100%;
+    transform: scale(2);
 }
 
 .played .pop img {

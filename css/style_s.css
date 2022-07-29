@@ -15,6 +15,14 @@
     }
 
     /*/aside*/
+
+    #heart {
+        display: none;
+    }
+
+    .audio {
+        display: none;
+    }
 }
 
 
